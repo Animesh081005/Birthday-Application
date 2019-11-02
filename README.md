@@ -8,9 +8,9 @@ An android application that consists of birthday wishes, photos, social media et
 # Android Studio Version
    Android Studio 3.5
 # A Glimpse Into the Application
-<img align="left" width="30%" src="https://user-images.githubusercontent.com/46554662/68076562-51e36400-fddc-11e9-90df-c389d704aaec.gif">
-<img align="right" width="30%" src="https://user-images.githubusercontent.com/46554662/68076565-527bfa80-fddc-11e9-8798-b41a7a26e3b7.gif">
-<img align="center" width="30%" src="https://user-images.githubusercontent.com/46554662/68076564-527bfa80-fddc-11e9-87ac-6bc79bcb9178.gif">
+<img align="left" width="33%" src="https://user-images.githubusercontent.com/46554662/68076562-51e36400-fddc-11e9-90df-c389d704aaec.gif">
+<img align="right" width="33%" src="https://user-images.githubusercontent.com/46554662/68076565-527bfa80-fddc-11e9-8798-b41a7a26e3b7.gif">
+<img align="center" width="33%" src="https://user-images.githubusercontent.com/46554662/68076564-527bfa80-fddc-11e9-87ac-6bc79bcb9178.gif">
 
 # Contact
 mailto:  ***a.081005@gmail.com***
