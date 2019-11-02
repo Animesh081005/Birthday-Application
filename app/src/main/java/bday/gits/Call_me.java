@@ -34,7 +34,7 @@ public class Call_me extends AppCompatActivity {
                 Intent intent = new Intent();
                 intent.setAction(Intent.ACTION_VIEW);
                 intent.addCategory(Intent.CATEGORY_BROWSABLE);
-                intent.setData(Uri.parse("https://www.instagram.com/a.081005"));
+                intent.setData(Uri.parse("https://www.instagram.com/"));
                 startActivity(intent);
             }
         });
@@ -63,7 +63,7 @@ public class Call_me extends AppCompatActivity {
     }
     public void jadu()
     {
-        final CharSequence options[] = new CharSequence[] {"7987785055", "9589497123"};
+        final CharSequence options[] = new CharSequence[] {"1234567890", "0123456789"};
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
         builder.setCancelable(false);
         builder.setTitle("Select your option:");

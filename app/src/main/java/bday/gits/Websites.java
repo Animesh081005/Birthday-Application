@@ -19,7 +19,7 @@ public class Websites extends AppCompatActivity {
         gits.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                    Intent intent=new Intent(Intent.ACTION_VIEW, Uri.parse("http://gits.website/kasldjfasdjfdshfjhe274873498.php"));
+                    Intent intent=new Intent(Intent.ACTION_VIEW, Uri.parse("https://prettydarncute.com/"));
                     startActivity(intent);
             }
         });
