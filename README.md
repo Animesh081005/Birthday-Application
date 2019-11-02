@@ -7,6 +7,9 @@ An android application that consists of birthday wishes, photos, social media et
 
 # Android Studio Version
    Android Studio 3.5
+# A Glimpse Into the Application
+![](https://user-images.githubusercontent.com/46554662/68076365-b0f3a980-fdd9-11e9-895d-11e79a3a0d92.gif)
+
 # Contact
 mailto:  ***a.081005@gmail.com***
 
