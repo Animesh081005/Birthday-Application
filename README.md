@@ -12,6 +12,12 @@ An android application that consists of birthday wishes, photos, social media et
 <img align="center" src="https://user-images.githubusercontent.com/46554662/68076565-527bfa80-fddc-11e9-8798-b41a7a26e3b7.gif">
 <img align="right" src="https://user-images.githubusercontent.com/46554662/68076564-527bfa80-fddc-11e9-87ac-6bc79bcb9178.gif">
 
+
+
+
+
+
+
 # Contact
 mailto:  ***a.081005@gmail.com***
 
