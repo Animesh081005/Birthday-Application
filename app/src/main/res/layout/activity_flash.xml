@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FlashActivity"
+    android:background="#f1ed19">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bday"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/ll"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:text="@string/flash"
+        android:textColor="@color/blue"
+        android:textSize="48sp"
+        android:textAlignment="center"
+        android:fontFamily="@font/cookies"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ll"
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/bday"
+        app:layout_constraintBottom_toBottomOf="parent">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/globe"
+        android:src="@drawable/icon"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/pButton"
+        android:background="@drawable/button_rectangle"
+        android:text="Enter your world"
+        android:textAllCaps="true"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:fontFamily="@font/cookies"
+        android:textColor="@color/blue"
+        android:outlineAmbientShadowColor="@color/blue"
+        android:padding="10dp"/>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

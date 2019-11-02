@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="bday.gits">
+
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.SEND_SMS"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Angel ka Birthday😘"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".DogWishTrans"
+            android:theme="@style/dogWish"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".MinionWishTrans"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".DogWish"
+            android:theme="@style/dogWish"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".MinionWish"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Call_me"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Random_Things"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Reading"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Websites"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Videos"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".BitwaWish"
+            android:screenOrientation="portrait"
+            android:theme="@style/BitwaWish" />
+        <activity
+            android:name=".Wishes"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FirstActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/First" />
+        <activity
+            android:name=".FlashActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

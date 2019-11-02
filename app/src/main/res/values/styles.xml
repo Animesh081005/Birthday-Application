@@ -1,0 +1,27 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">#0252ca</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="First" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#0668fd</item>
+        <item name="colorPrimaryDark">#0252ca</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="BitwaWish" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">#000000</item>
+        <item name="colorPrimaryDark">#20131d</item>
+        <item name="colorAccent">#4d6f80</item>
+    </style>
+    <style name="dogWish" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">#FFF200</item>
+        <item name="colorPrimaryDark">#55321c</item>
+        <item name="colorAccent">#4d6f80</item>
+    </style>
+</resources>
